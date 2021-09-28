@@ -1,0 +1,124 @@
+/***** BASE STYLES *****/
+body {
+    color: #030202;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+    width: 1200px;
+
+}
+
+.full-width{
+   width: 1200px;
+   margin: 0 auto;
+   float:left;
+}
+
+.half-width {
+      width: 600px;
+      margin: 0 auto;
+      float:left;
+
+}
+
+.third-width {
+      border-top: 1px solid #dedbdc;
+      float:left;
+      margin: 0 auto;
+      width: 399px;
+
+}
+/*****HEADER*****/
+
+
+header  h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+header h1 span{
+    color: #77a466;
+
+}
+
+header nav {
+    margin: 37px 0px 37px 0px;
+    padding-left: 65px;
+
+}
+
+header nav a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+header img{
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+
+
+/*****MAIN*****/
+
+main #welcome h2{
+    color: #77a466;
+    text-transform:uppercase;
+
+}
+
+
+main h3 {
+      font-size: 12px;
+      padding:10px 0px;
+      text-transform:uppercase;
+
+}
+
+main #specials ul {
+       padding-left: 0px;
+
+}
+
+
+main #specials ul li {
+      color: #77a466;
+      list-style-type: none;
+      padding-bottom: 20px;
+}
+
+
+main section#reviews.third-width{
+
+    border-right: 1px solid #dedbdc;
+    border-left: 1px solid #dedbdc;
+}
+
+main section#reviews,#contact, p.third-width{
+     width: 350px;
+     padding-left:20px;
+     padding-right:20px;
+
+}
+/*****FOOTER*****/
+footer {
+      border-top: 3px solid #dedbdc;
+}
+
+footer section h3 {
+      font-size: 12px;
+      text-align: center;
+
+}
+
+footer h3 span {
+      color: #77a466;
+      font-family: 'Galada', cursive;
+      font-size: 14px;
+      text-transform: lowercase;
+
+}
